@@ -1,0 +1,47 @@
+.busketItem__wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    margin: 20px 0;
+}
+
+.busketItem__product {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / 7;
+}
+
+.busketItem__product img {
+    width: 100px;
+    height: 100px;
+}
+
+.busketItem__wrapper img:last-child {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.busketItem__price {
+    grid-column: 7 / 9;
+    text-align: center;
+}
+
+.busketItem__wrapper select {
+    grid-column: 9 / 11;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.busketItem__delete {
+    justify-self: center;
+    transition: 0.5s;
+}
+
+.busketItem__delete:hover {
+    transform: scale(1.5);
+}
+
+.busketItem__title {
+    margin-left: 20px;
+}

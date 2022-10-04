@@ -1,0 +1,16 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E0E0E0;
+    padding: 10px 0;
+}
+
+.header__wrapper .header__logo {
+    width: 25%;
+}
+
+.header__wrapper .header__busket {
+    width: 45px;
+    height: 45px;
+}
